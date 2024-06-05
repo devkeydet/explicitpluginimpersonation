@@ -35,7 +35,7 @@ namespace PluginImpersonationTest.Plugins
             var impersonatedOrganizationService = serviceFactory.CreateOrganizationService(systemUserIdToImpersonate);
 
             // make your calls with impersonatedOrganizationService
-            // In the trivial example below, imagine that the calling user doesn't have access ot the systemuser table, but the impersonated user does
+            // In the trivial (and yes contrived for simplicity) example below, imagine that the calling user doesn't have access ot the systemuser table, but the impersonated user does
             var columns = new ColumnSet(new string[] { FIRST_NAME, LAST_NAME });
             var systemUser = impersonatedOrganizationService.Retrieve("systemuser", systemUserIdToImpersonate, columns);
 
