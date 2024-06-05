@@ -18,7 +18,7 @@ namespace PluginImpersonationTest.Plugins
             : base(typeof(dkdt_PluginImpersonationTest_Create))
         {
         }
-        
+
         protected override void ExecuteDataversePlugin(ILocalPluginContext localPluginContext)
         {
             if (localPluginContext == null)
@@ -26,16 +26,16 @@ namespace PluginImpersonationTest.Plugins
                 throw new ArgumentNullException(nameof(localPluginContext));
             }
 
-            // Get the organizasion impersonatedOrganizationService to retrieve the environment variable
+            // Get the organization service to retrieve the environment variable
             var userOrganizationService = localPluginContext.PluginUserService;
             var systemUserIdToImpersonate = GetSystemUserIdToImpersonate(userOrganizationService);
 
-            // Create the organizasion impersonatedOrganizationService to impersonate the user
+            // Create a new impersonatedOrganizationService to impersonate the user
             var serviceFactory = (IOrganizationServiceFactory)localPluginContext.ServiceProvider.GetService(typeof(IOrganizationServiceFactory));
             var impersonatedOrganizationService = serviceFactory.CreateOrganizationService(systemUserIdToImpersonate);
 
             // make your calls with impersonatedOrganizationService
-            // In the trivial example below, the calling user doesn't have access ot the systemuser table, but the impersonated user does
+            // In the trivial example below, imagine that the calling user doesn't have access ot the systemuser table, but the impersonated user does
             var columns = new ColumnSet(new string[] { FIRST_NAME, LAST_NAME });
             var systemUser = impersonatedOrganizationService.Retrieve("systemuser", systemUserIdToImpersonate, columns);
 
