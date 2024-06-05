@@ -92,10 +92,6 @@
         <Dependent type="80" schemaName="dkdt_PluginImpersonationTestApp" displayName="PluginImpersonationTestApp" />
       </MissingDependency>
       <MissingDependency>
-        <Required type="DVTableSearch" solution="Active" id="{5c13aa07-3023-ef11-840a-000d3a9b7c9a}" />
-        <Dependent type="DVTableSearchEntity" id="{5e13aa07-3023-ef11-840a-000d3a9b7c9a}" />
-      </MissingDependency>
-      <MissingDependency>
         <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.10)" id.uniquename="AppChannel" />
         <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=dkdt_PluginImpersonationTestApp,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="dkdt_PluginImpersonationTestApp" id.settingdefinitionid.uniquename="AppChannel" />
       </MissingDependency>
