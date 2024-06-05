@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="pluginimpersonationtest.plugins.Plugin1: Delete of account" SdkMessageProcessingStepId="{0f8dd541-2923-ef11-840a-000d3a9c1a05}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SdkMessageId>a1bdbb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
+  <PluginTypeName>pluginimpersonationtest.plugins.Plugin1, pluginimpersonationtest.plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a379bf26ae734bf7</PluginTypeName>
+  <PluginTypeId>fcc89bd7-0060-49a7-9c24-ee5d9a19dd74</PluginTypeId>
+  <PrimaryEntity>account</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>pluginimpersonationtest.plugins.Plugin1: Delete of account</Description>
+  <FilteringAttributes></FilteringAttributes>
+  <ImpersonatingUserIdName># marcsc-ado-sp</ImpersonatingUserIdName>
+  <InvocationSource>0</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>10</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>
