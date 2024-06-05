@@ -80,9 +80,25 @@
       </Addresses>
     </Publisher>
     <RootComponents>
-      <RootComponent type="91" id="{86ca8b80-865e-4831-800f-e98b90a2484f}" schemaName="pluginimpersonationtest.plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a379bf26ae734bf7" behavior="0" />
-      <RootComponent type="92" id="{0f8dd541-2923-ef11-840a-000d3a9c1a05}" behavior="0" />
+      <RootComponent type="1" schemaName="dkdt_pluginimpersonationtest" behavior="0" />
+      <RootComponent type="62" schemaName="dkdt_PluginImpersonationTestApp" behavior="0" />
+      <RootComponent type="80" schemaName="dkdt_PluginImpersonationTestApp" behavior="0" />
+      <RootComponent type="91" id="{1f55f3b5-c911-479e-bc77-41681b70e094}" schemaName="pluginimpersonationtestplugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d3d7fba163cdff0f" behavior="0" />
+      <RootComponent type="92" id="{8739256a-3623-ef11-840a-000d3a9c1a05}" behavior="0" />
     </RootComponents>
-    <MissingDependencies />
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/Images/AppModule_Default_Icon.png" displayName="msdyn_/Images/AppModule_Default_Icon.png" solution="AppModuleWebResources (2.5)" />
+        <Dependent type="80" schemaName="dkdt_PluginImpersonationTestApp" displayName="PluginImpersonationTestApp" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="DVTableSearch" solution="Active" id="{5c13aa07-3023-ef11-840a-000d3a9b7c9a}" />
+        <Dependent type="DVTableSearchEntity" id="{5e13aa07-3023-ef11-840a-000d3a9b7c9a}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="SettingDefinition" displayName="AppChannel" solution="msdyn_AppFrameworkInfraExtensions (1.0.0.10)" id.uniquename="AppChannel" />
+        <Dependent type="AppSetting" displayName="parentappmoduleid.uniquename=dkdt_PluginImpersonationTestApp,settingdefinitionid.uniquename=AppChannel" id.parentappmoduleid.uniquename="dkdt_PluginImpersonationTestApp" id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+    </MissingDependencies>
   </SolutionManifest>
 </ImportExportXml>

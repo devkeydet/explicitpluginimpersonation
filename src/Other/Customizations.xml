@@ -12,6 +12,8 @@
   <CustomControls />
   <SolutionPluginAssemblies />
   <SdkMessageProcessingSteps />
+  <AppModuleSiteMaps />
+  <AppModules />
   <EntityDataProviders />
   <Languages>
     <Language>1033</Language>

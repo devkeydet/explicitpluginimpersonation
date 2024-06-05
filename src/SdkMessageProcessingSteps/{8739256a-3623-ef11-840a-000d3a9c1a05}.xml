@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SdkMessageProcessingStep Name="PluginImpersonationTest.Plugins.dkdt_PluginImpersonationTest_Create: Create of dkdt_pluginimpersonationtest" SdkMessageProcessingStepId="{8739256a-3623-ef11-840a-000d3a9c1a05}" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SdkMessageId>9ebdbb1b-ea3e-db11-86a7-000a3a5473e8</SdkMessageId>
+  <PluginTypeName>PluginImpersonationTest.Plugins.dkdt_PluginImpersonationTest_Create, pluginimpersonationtestplugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=d3d7fba163cdff0f</PluginTypeName>
+  <PluginTypeId>82a9588f-02fe-482a-b637-731192d0565e</PluginTypeId>
+  <PrimaryEntity>dkdt_pluginimpersonationtest</PrimaryEntity>
+  <AsyncAutoDelete>0</AsyncAutoDelete>
+  <Description>PluginImpersonationTest.Plugins.dkdt_PluginImpersonationTest_Create: Create of dkdt_pluginimpersonationtest</Description>
+  <FilteringAttributes></FilteringAttributes>
+  <InvocationSource>0</InvocationSource>
+  <Mode>0</Mode>
+  <Rank>1</Rank>
+  <EventHandlerTypeCode>4602</EventHandlerTypeCode>
+  <Stage>10</Stage>
+  <IsCustomizable>1</IsCustomizable>
+  <IsHidden>0</IsHidden>
+  <SupportedDeployment>0</SupportedDeployment>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <SdkMessageProcessingStepImages />
+</SdkMessageProcessingStep>

@@ -49,7 +49,10 @@
   </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="plugin-src\pluginimpersonationtest.plugins\pluginimpersonationtest.plugins.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="plugin-src\pluginimpersonationtestplugins\pluginimpersonationtestplugins.csproj" />
   </ItemGroup>
 
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />

@@ -5,7 +5,7 @@ using System;
 using System.Runtime.CompilerServices;
 using System.ServiceModel;
 
-namespace pluginimpersonationtest.plugins
+namespace PluginImpersonationTest.Plugins
 {
     /// <summary>
     /// Base class for all plug-in classes.
@@ -120,7 +120,7 @@ namespace pluginimpersonationtest.plugins
         /// <summary>
         /// ILogger for this plugin.
         /// </summary>
-        ILogger Logger { get;  }
+        ILogger Logger { get; }
 
         /// <summary>
         /// Writes a trace message to the trace log.
